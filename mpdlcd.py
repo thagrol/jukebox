@@ -28,7 +28,7 @@ LCDd_SETRANDOMOFF = 'widget_set %s %s 3 1 " "\n' % (LCDd_MPDSTATUS, LCDd_MPDRAND
 LCDd_SETCURSONG = 'widget_set %s %s 1 2 %s 2 m 02 "%s        "\n' %(LCDd_MPDSTATUS, LCDd_MPDCURSONG, LCDd_COLUMNS, '%s')
 
 # mpd stuff
-MPD_HOSTNAME = 'jukebox' # change this as needed
+MPD_HOSTNAME = 'localhost' # change this as needed
 MPD_PORT = 6600 #default mpd port
 MPD_IDLECMD = 'idle player options\n'
 
